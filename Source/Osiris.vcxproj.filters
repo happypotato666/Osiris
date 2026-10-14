@@ -420,13 +420,7 @@
     <ClInclude Include="Utils\Pad.h">
       <Filter>Utils</Filter>
     </ClInclude>
-    <ClInclude Include="Utils\RefCountedHook.h">
-      <Filter>Utils</Filter>
-    </ClInclude>
     <ClInclude Include="Utils\ReturnAddress.h">
-      <Filter>Utils</Filter>
-    </ClInclude>
-    <ClInclude Include="Utils\SpanSlice.h">
       <Filter>Utils</Filter>
     </ClInclude>
     <ClInclude Include="Utils\StringBuilder.h">
@@ -808,9 +802,6 @@
     <ClInclude Include="MemoryPatterns\Windows\WeaponPatternsWindows.h">
       <Filter>MemoryPatterns\Windows</Filter>
     </ClInclude>
-    <ClInclude Include="Utils\PrivateTag.h">
-      <Filter>Utils</Filter>
-    </ClInclude>
     <ClInclude Include="Features\Hud\BombTimer\BombTimerPanel.h">
       <Filter>Features\Hud\BombTimer</Filter>
     </ClInclude>
@@ -854,9 +845,6 @@
       <Filter>Common</Filter>
     </ClInclude>
     <ClInclude Include="Features\Hud\PostRoundTimer\PostRoundTimer.h">
-      <Filter>Features\Hud\PostRoundTimer</Filter>
-    </ClInclude>
-    <ClInclude Include="Features\Hud\PostRoundTimer\PostRoundTimerContext.h">
       <Filter>Features\Hud\PostRoundTimer</Filter>
     </ClInclude>
     <ClInclude Include="Features\Hud\PostRoundTimer\PostRoundTimerPanel.h">
@@ -1021,9 +1009,6 @@
     <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerInfoInWorld.h">
       <Filter>Features\Visuals\PlayerInfoInWorld</Filter>
     </ClInclude>
-    <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerInfoInWorldContext.h">
-      <Filter>Features\Visuals\PlayerInfoInWorld</Filter>
-    </ClInclude>
     <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerInfoInWorldPanelFactory.h">
       <Filter>Features\Visuals\PlayerInfoInWorld</Filter>
     </ClInclude>
@@ -1039,13 +1024,7 @@
     <ClInclude Include="Features\Visuals\PlayerInfoInWorld\ActiveWeaponAmmo\PlayerActiveWeaponAmmoPanel.h">
       <Filter>Features\Visuals\PlayerInfoInWorld\ActiveWeaponAmmo</Filter>
     </ClInclude>
-    <ClInclude Include="Features\Visuals\PlayerInfoInWorld\ActiveWeaponAmmo\PlayerActiveWeaponAmmoPanelContext.h">
-      <Filter>Features\Visuals\PlayerInfoInWorld\ActiveWeaponAmmo</Filter>
-    </ClInclude>
     <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerHealth\PlayerHealthPanel.h">
-      <Filter>Features\Visuals\PlayerInfoInWorld\PlayerHealth</Filter>
-    </ClInclude>
-    <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerHealth\PlayerHealthPanelContext.h">
       <Filter>Features\Visuals\PlayerInfoInWorld\PlayerHealth</Filter>
     </ClInclude>
     <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerHealth\PlayerHealthPanelParams.h">
@@ -1057,16 +1036,10 @@
     <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerPositionArrow\PlayerPositionArrowPanel.h">
       <Filter>Features\Visuals\PlayerInfoInWorld\PlayerPositionArrow</Filter>
     </ClInclude>
-    <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerPositionArrow\PlayerPositionArrowPanelContext.h">
-      <Filter>Features\Visuals\PlayerInfoInWorld\PlayerPositionArrow</Filter>
-    </ClInclude>
     <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerPositionArrow\PlayerPositionArrowPanelParams.h">
       <Filter>Features\Visuals\PlayerInfoInWorld\PlayerPositionArrow</Filter>
     </ClInclude>
     <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerStateIcons\PlayerStateIconsPanel.h">
-      <Filter>Features\Visuals\PlayerInfoInWorld\PlayerStateIcons</Filter>
-    </ClInclude>
-    <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerStateIcons\PlayerStateIconsPanelContext.h">
       <Filter>Features\Visuals\PlayerInfoInWorld\PlayerStateIcons</Filter>
     </ClInclude>
     <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerStateIcons\PlayerStateIconsPanelParams.h">
@@ -1231,13 +1204,7 @@
     <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerWeaponIcon\ActiveWeaponIcon\PlayerActiveWeaponIconPanel.h">
       <Filter>Features\Visuals\PlayerInfoInWorld\PlayerWeaponIcon\ActiveWeaponIcon</Filter>
     </ClInclude>
-    <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerWeaponIcon\ActiveWeaponIcon\PlayerActiveWeaponIconPanelContext.h">
-      <Filter>Features\Visuals\PlayerInfoInWorld\PlayerWeaponIcon\ActiveWeaponIcon</Filter>
-    </ClInclude>
     <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerWeaponIcon\BombIcon\PlayerBombIconPanel.h">
-      <Filter>Features\Visuals\PlayerInfoInWorld\PlayerWeaponIcon\BombIcon</Filter>
-    </ClInclude>
-    <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerWeaponIcon\BombIcon\PlayerBombIconPanelContext.h">
       <Filter>Features\Visuals\PlayerInfoInWorld\PlayerWeaponIcon\BombIcon</Filter>
     </ClInclude>
     <ClInclude Include="Features\Visuals\PlayerInfoInWorld\PlayerWeaponIcon\PlayerWeaponIconPanel.h">
@@ -1408,9 +1375,6 @@
     <ClInclude Include="Features\Sound\Details\WatchedSounds.h">
       <Filter>Features\Sound\Details</Filter>
     </ClInclude>
-    <ClInclude Include="Utils\FileSlice.h">
-      <Filter>Utils</Filter>
-    </ClInclude>
     <ClInclude Include="GameClient\ConVars\ConVarsBase.h">
       <Filter>GameClient\ConVars</Filter>
     </ClInclude>
@@ -1486,13 +1450,7 @@
     <ClInclude Include="GameClient\Hud\BombStatus\BombStatusPanel.h">
       <Filter>GameClient\Hud\BombStatus</Filter>
     </ClInclude>
-    <ClInclude Include="GameClient\Hud\BombStatus\BombStatusPanelContext.h">
-      <Filter>GameClient\Hud\BombStatus</Filter>
-    </ClInclude>
     <ClInclude Include="GameClient\Hud\BombStatus\BombStatusPanelManager.h">
-      <Filter>GameClient\Hud\BombStatus</Filter>
-    </ClInclude>
-    <ClInclude Include="GameClient\Hud\BombStatus\BombStatusPanelManagerContext.h">
       <Filter>GameClient\Hud\BombStatus</Filter>
     </ClInclude>
     <ClInclude Include="GameClient\Hud\BombStatus\BombStatusPanelState.h">
